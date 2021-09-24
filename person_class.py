@@ -8,9 +8,7 @@ logging.basicConfig(level=logging.DEBUG,
                     datefmt='%d-%b-%y %H:%M:%S')
 logging.debug('This is a debug message')
 logging.info('This is an info message')
-logging.warning('your name is a warning message')
-logging.error('This is an error message')
-logging.critical('This is a critical message')
+
 
 class PersonClass():
   def __init__(self, name, family):
